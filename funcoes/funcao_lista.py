@@ -1,8 +1,6 @@
 def dobra(lista):
-    pos = 0
-    while pos < len(lista):
-        lista[pos] += 2
-        pos += 1
+    for valor in lista:
+        valor += 2
 
 
 valores = [6,5,9,3,1,4,7]
