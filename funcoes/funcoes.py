@@ -9,14 +9,25 @@
 # print('LUCAS')
 # print('-' *30)  
 
-def linhas():
+# def linhas():
     
-    print('-' *30)
+#     print('-' *30)
 
 
-linhas()
-print(' CURSO DE PYTHON')
-linhas()              
-print(' APRENDER PYTHON')
-linhas()
-print('LUCAS')
+# linhas()
+# print(' CURSO DE PYTHON')
+# linhas()              
+# print(' APRENDER PYTHON')
+# linhas()
+# print('LUCAS')
+
+def linhas(msg):
+    print('_' * 30)
+    print(msg)
+    print('_' * 30)
+
+linhas("CURSO DE PYTHON")
+
+linhas("APRENDER PYTHON")
+
+linhas("LUCAS")
