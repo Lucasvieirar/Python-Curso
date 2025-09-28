@@ -16,7 +16,7 @@
 
 def somar(a, b):
     s = a + b
-    print(s)
+    print(f' A  soma de {a} e B  {b} é {s}')
 
 somar(4 , 5)
 somar(8, 9)
