@@ -1,12 +1,22 @@
 #otimizar tarefas repetitivas
 # df funco():
 
-print('-' *30)
+# print('-' *30)
+# print(' CURSO DE PYTHON')
+# print('-' *30)                 #SEM A FUNÇÃO
+# print(' APRENDER PYTHON')
+# print('-' *30)
+# print('LUCAS')
+# print('-' *30)  
+
+def linhas():
+    
+    print('-' *30)
+
+
+linhas()
 print(' CURSO DE PYTHON')
-print('-' *30)                 #SEM A FUNÇÃO
+linhas()              
 print(' APRENDER PYTHON')
-print('-' *30)
+linhas()
 print('LUCAS')
-print('-' *30)  
-
-
