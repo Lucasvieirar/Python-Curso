@@ -6,10 +6,12 @@ horas = float(input("Digite o número de horas trabalhadas: "))
 
 taxa = float(input("Digite o valor da taxa por hora (R$): "))
 if horas <= 40:
-    valor_pago = horas * taxa  
+    valor_pago = horas * taxa
+    print(valor_pago) 
 
 else:
-    
-    horas_extras = horas - 40
-    valor_pago = (horas_extras * taxa) + (horas_extras * taxa * 1.5)
-print(f"O valor a ser pago pelas {horas} horas é {valor_pago:.2f}")
+    valor_pago = 40 * taxa
+    hora_extra = horas - 40
+    valor_extra = hora_extra * taxa * 1.5
+    valor_pago_extra = valor_extra + valor_pago
+    print(valor_pago_extra)
