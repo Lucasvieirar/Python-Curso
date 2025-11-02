@@ -5,7 +5,7 @@ class Pessoa(ABC):  #Classe abstrata não possui objetos, só pode ser mãe
         print("A pessoa esta correndo de manha")
 
     @abstractmethod #Classe filha deve criar um metodo 
-    def trabalhar(self):
+    def trabalhar(self): # forço as filas a terem esse metodo
         pass
 
 class Professor(Pessoa):
